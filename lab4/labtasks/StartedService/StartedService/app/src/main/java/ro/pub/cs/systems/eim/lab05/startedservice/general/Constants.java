@@ -9,6 +9,8 @@ import java.util.Arrays;
 public interface Constants {
 
     final public static String TAG = "[Started Service]";
+    final public static String CHANNEL_ID = "11";
+    final public static String CHANNEL_NAME = "ForegroundServiceChannel";
 
     final public static String ACTION_STRING = "ro.pub.cs.systems.eim.lab05.startedservice.string";
     final public static String ACTION_INTEGER = "ro.pub.cs.systems.eim.lab05.startedservice.integer";
@@ -22,9 +24,8 @@ public interface Constants {
 
     final public static String STRING_DATA = "EIM";
     final public static int INTEGER_DATA = Integer.parseInt(new SimpleDateFormat("yyyy").format(Calendar.getInstance().getTime()));
-   
     final public static ArrayList<String> ARRAY_LIST_DATA = new ArrayList<>(Arrays.asList("EIM", "laborator"));
 
     final public static long SLEEP_TIME = 5000;
-
+    final public static String TAG_FOREGROUND_SERVICE = "ForegroundService";
 }

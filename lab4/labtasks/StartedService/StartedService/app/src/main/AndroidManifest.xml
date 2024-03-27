@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <!-- serviciul defineste cel putin un filtru de intentii (in StartedServiceActivity)
+         + destinat invocarii din contextul altor aplicatii Android-->
         <service
             android:name=".service.StartedService"
             android:exported="true"/>
