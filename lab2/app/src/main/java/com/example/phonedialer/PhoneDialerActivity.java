@@ -1,12 +1,13 @@
 package com.example.phonedialer;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,12 +15,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class PhoneDialerActivity extends AppCompatActivity {
 
     private EditText phoneNumberEditText;
-    private ImageButton callButton, hangupButton, backspaceButton;
+    private ImageButton callButton, hangupButton, backspaceButton, contactButton;
     private Button genericButton;
+
+    // LAB 3
+    private ActivityResultLauncher<Intent> startActivityForResultLauncher;
 
     private class PushedButtonListener implements View.OnClickListener {
         @Override
@@ -54,6 +59,18 @@ public class PhoneDialerActivity extends AppCompatActivity {
 
                 // Se inchide activitatea
                 finish();
+            } else if (view.getId() == R.id.contact_button) {
+                // LAB 3. buton contacte
+                String phoneNumber = phoneNumberEditText.getText().toString();
+
+                if (!phoneNumber.isEmpty()) {
+                    // Se invoca o intentie asociata aplicatiei Contacts Manager
+                    // in Manifest, la Contacts Manager, am acest path la numele actiunii intentului !!!
+                    Intent intent = new Intent("com.example.contactsmanager.intent.action.ContactsManagerActivity");
+                    intent.putExtra("com.example.contactsmanager.PHONE_NUMBER_KEY", phoneNumber);
+
+                    startActivityForResultLauncher.launch(intent);
+                }
             } else {
                 // buton generic: 0-9, *, #
 
@@ -85,9 +102,22 @@ public class PhoneDialerActivity extends AppCompatActivity {
         backspaceButton = findViewById(R.id.backspace_button);
         backspaceButton.setOnClickListener(pushedButtonListener);
 
+        contactButton = findViewById(R.id.contact_button);
+        contactButton.setOnClickListener(pushedButtonListener);
+
         for (int index = 0; index < Constants.buttonIds.length; index++) {
             genericButton = findViewById(Constants.buttonIds[index]);
             genericButton.setOnClickListener(pushedButtonListener);
         }
+
+        startActivityForResultLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+            if (result.getResultCode() == RESULT_OK) {
+                Toast.makeText(getApplication(), "Creating contact", Toast.LENGTH_SHORT).show();
+            } else if (result.getResultCode() == RESULT_CANCELED) {
+                Toast.makeText(getApplication(), "Cancelled", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(getApplication(), "ERROR", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

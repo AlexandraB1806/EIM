@@ -25,23 +25,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:rowCount="6"
-        android:columnCount="3">
-
-        <ImageButton
-            android:id="@+id/backspace_button"
-            android:src="@drawable/backspace"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="2"
-            android:layout_gravity="center"
-            android:background="@null" />
+        android:rowCount="4"
+        android:columnCount="5">
 
         <Button
             android:id="@+id/number_1_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="1"
+            android:layout_row="0"
             android:layout_column="0"
             android:text="@string/number_1"
             android:textColor="@android:color/black" />
@@ -49,7 +39,7 @@
         <Button
             android:id="@+id/number_2_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="1"
+            android:layout_row="0"
             android:layout_column="1"
             android:text="@string/number_2"
             android:textColor="@android:color/black" />
@@ -57,7 +47,7 @@
         <Button
             android:id="@+id/number_3_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="1"
+            android:layout_row="0"
             android:layout_column="2"
             android:text="@string/number_3"
             android:textColor="@android:color/black" />
@@ -65,73 +55,57 @@
         <Button
             android:id="@+id/number_4_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="2"
-            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_column="3"
             android:text="@string/number_4"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_5_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="2"
-            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_column="4"
             android:text="@string/number_5"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_6_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="2"
-            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_column="0"
             android:text="@string/number_6"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_7_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="3"
-            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_column="1"
             android:text="@string/number_7"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_8_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="3"
-            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_column="2"
             android:text="@string/number_8"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_9_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="3"
-            android:layout_column="2"
+            android:layout_row="1"
+            android:layout_column="3"
             android:text="@string/number_9"
             android:textColor="@android:color/black" />
 
         <Button
             android:id="@+id/number_0_button"
             style="@style/Widget.AppCompat.Button"
-            android:layout_row="4"
-            android:layout_column="1"
+            android:layout_row="1"
+            android:layout_column="4"
             android:text="@string/number_0"
-            android:textColor="@android:color/black" />
-
-        <Button
-            android:id="@+id/star_button"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_row="4"
-            android:layout_column="0"
-            android:text="@string/star"
-            android:textColor="@android:color/black" />
-
-        <Button
-            android:id="@+id/diez_button"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_row="4"
-            android:layout_column="2"
-            android:text="@string/diez"
             android:textColor="@android:color/black" />
 
         <ImageButton
@@ -139,8 +113,44 @@
             android:src="@drawable/outgoing_call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_row="5"
+            android:layout_row="2"
             android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@null" />
+
+        <Button
+            android:id="@+id/star_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="@string/star"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/backspace_button"
+            android:src="@drawable/backspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@null" />
+
+        <Button
+            android:id="@+id/diez_button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="@string/diez"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/missed_call_button"
+            android:src="@drawable/missed_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="4"
             android:layout_gravity="center"
             android:background="@null" />
 
@@ -149,21 +159,10 @@
             android:src="@drawable/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_row="5"
-            android:layout_column="1"
-            android:layout_gravity="center"
-            android:background="@null" />
-
-        <ImageButton
-            android:id="@+id/missed_call_button"
-            android:src="@drawable/missed_call"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="5"
+            android:layout_row="3"
             android:layout_column="2"
             android:layout_gravity="center"
             android:background="@null" />
-
     </GridLayout>
 
 </LinearLayout>
