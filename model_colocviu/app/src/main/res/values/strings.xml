@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ModelColocviu</string>
+    <string name="zero">0</string>
+    <string name="navigate_to_secondary_activity">NAVIGATE TO SECONDARY ACTIVITY</string>
+    <string name="press_me">PRESS ME!</string>
+    <string name="press_me_too">PRESS ME, TOO!</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="number_of_total_clicks">Number of total clicks</string>
+</resources>

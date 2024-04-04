@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.ModelColocviu</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4770286-4e28-415d-a82b-57aecb43f9f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/model_colocviu/app/src/main/java/ro/pub/cs/systems/eim/modelcolocviu/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_colocviu/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/assets/credentials.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/entities/Credential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/general/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/general/Utilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/graphicuserinterface/LifecycleMonitorActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_authentication_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_authentication_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/layout/activity_lifecycle_monitor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/layout/popup_window_authentication_fail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/layout/popup_window_authentication_success.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/labtasks/ActivityLifecycleMonitor/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/assets/credentials.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/entities/Credential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/general/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/general/Utilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/java/ro/pub/systems/eim/lab02/activitylifecyclemonitor/graphicuserinterface/LifecycleMonitorActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_authentication_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_authentication_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/drawable/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/layout/activity_lifecycle_monitor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/layout/popup_window_authentication_fail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/layout/popup_window_authentication_success.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab1/solutions/ActivityLifecycleMonitor/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/androidTest/java/com/example/phonedialer/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/java/com/example/phonedialer/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/java/com/example/phonedialer/PhoneDialerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/color/button_background_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/color/button_text_color.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/backspace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/missed_call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/drawable/outgoing_call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/layout-land/activity_phone_dialer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/layout/activity_phone_dialer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/app/src/test/java/com/example/phonedialer/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/androidTest/java/com/example/contactsmanager/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/java/com/example/contactsmanager/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/java/com/example/contactsmanager/ContactsManagerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/layout/activity_contacts_manager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/app/src/test/java/com/example/contactsmanager/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/BoundedServiceActivity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/boundedserviceactivity/general/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/boundedserviceactivity/service/BoundedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/boundedserviceactivity/view/BoundedServiceActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/layout/activity_bounded_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/BoundedService/BoundedServiceActivity/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/StartedService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedservice/general/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedservice/service/ProcessingThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedservice/service/StartedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedService/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/StartedServiceActivity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedserviceactivity/general/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedserviceactivity/view/StartedServiceActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/java/ro/pub/cs/systems/eim/lab05/startedserviceactivity/view/StartedServiceBroadcastReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/layout/activity_started_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab4/labtasks/StartedService/StartedServiceActivity/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/androidTest/java/ro/pub/cs/systems/eim/bluetoothapp2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/java/ro/pub/cs/systems/eim/bluetoothapp2/ChatUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/java/ro/pub/cs/systems/eim/bluetoothapp2/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/java/ro/pub/cs/systems/eim/bluetoothapp2/DeviceListActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/java/ro/pub/cs/systems/eim/bluetoothapp2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/drawable/ic_bluetooth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/drawable/ic_bluetooth_searching.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/drawable/ic_person_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/layout/activity_device_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/layout/device_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/layout/message_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/menu/menu_device_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/menu/menu_main_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/app/src/test/java/ro/pub/cs/systems/eim/bluetoothapp2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_colocviu/lab5/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Alexandra\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/model_colocviu" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2edMvj1GIb79ouYhn4BJ2f1xGOZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Alexandra/Desktop/EIM/EIM/model_colocviu"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="ModelColocviu.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4770286-4e28-415d-a82b-57aecb43f9f2" name="Changes" comment="" />
+      <created>1712230234161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712230234161</updated>
+    </task>
+    <servers />
+  </component>
+</project>
