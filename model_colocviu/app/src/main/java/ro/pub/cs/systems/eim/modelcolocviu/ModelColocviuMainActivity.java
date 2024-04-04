@@ -40,46 +40,10 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
                 numOfClicksLeft++;
 
                 leftEditText.setText(String.valueOf(numOfClicksLeft));
-
-                // ----------------------- D.1 b ------------------------
-                int numTotalClicks = numOfClicksLeft + numOfClicksRight;
-
-                if (numTotalClicks >= Constants.THRESHOLD) {
-                    intent = new Intent();
-                    intent.putExtra(Constants.NUMBER_LEFT, numOfClicksLeft);
-                    intent.putExtra(Constants.NUMBER_RIGHT, numOfClicksRight);
-
-                    intent.setComponent(new ComponentName(Constants.SERVICE_PACKAGE, Constants.SERVICE_CLASS));
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        startForegroundService(intent);
-                    } else {
-                        startService(intent);
-                    }
-                }
-                // ----------------------- D.1 b ------------------------
             } else if (view.getId() == R.id.press_me_too_button) {
                 numOfClicksRight++;
 
                 rightEditText.setText(String.valueOf(numOfClicksRight));
-
-                // ----------------------- D.1 b ------------------------
-                int numTotalClicks = numOfClicksLeft + numOfClicksRight;
-
-                if (numTotalClicks >= Constants.THRESHOLD) {
-                    intent = new Intent();
-                    intent.putExtra(Constants.NUMBER_LEFT, numOfClicksLeft);
-                    intent.putExtra(Constants.NUMBER_RIGHT, numOfClicksRight);
-
-                    intent.setComponent(new ComponentName(Constants.SERVICE_PACKAGE, Constants.SERVICE_CLASS));
-
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        startForegroundService(intent);
-                    } else {
-                        startService(intent);
-                    }
-                }
-                // ----------------------- D.1 b ------------------------
             } else if (view.getId() == R.id.button_to_secondary_activity) {
                 // ----------------------- C ------------------------
                 String numTotalClicks = String.valueOf(numOfClicksLeft + numOfClicksRight);
@@ -90,6 +54,22 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
                 startActivityForResultLauncher.launch(intent);
                 // ----------------------- C ------------------------
             }
+
+            // ----------------------- D.1 b ------------------------
+            if (numOfClicksLeft + numOfClicksRight > Constants.THRESHOLD) {
+                intent = new Intent();
+                intent.putExtra(Constants.NUMBER_LEFT, numOfClicksLeft);
+                intent.putExtra(Constants.NUMBER_RIGHT, numOfClicksRight);
+
+                intent.setComponent(new ComponentName(Constants.SERVICE_PACKAGE, Constants.SERVICE_CLASS));
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    getApplicationContext().startForegroundService(intent);
+                } else {
+                    getApplicationContext().startService(intent);
+                }
+            }
+            // ----------------------- D.1 b ------------------------
         }
     }
 
