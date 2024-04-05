@@ -24,10 +24,10 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
     private ActivityResultLauncher<Intent> startActivityForResultLauncher;
 
     // ----------------------- D.1 ------------------------
-    private IntentFilter intentFilter;
     private Intent intent;
 
     // ----------------------- D.2 ------------------------
+    private IntentFilter intentFilter;
     private ModelColocviuBroadcastReceiver broadcastReceiver;
 
     private class PushedButtonListener implements View.OnClickListener {
@@ -93,7 +93,7 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
         pressMeTooButton = findViewById(R.id.press_me_too_button);
         pressMeTooButton.setOnClickListener(pushedButtonListener);
 
-        // ----------------------- B ------------------------
+        // ----------------------- B.2 ------------------------
         if (savedInstanceState == null) {
             leftEditText.setText(String.valueOf(0));
             rightEditText.setText(String.valueOf(0));
@@ -110,7 +110,7 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
                 rightEditText.setText(String.valueOf(0));
             }
         }
-        // ----------------------- B ------------------------
+        // ----------------------- B.2 ------------------------
 
 
         // ----------------------- C ------------------------
@@ -136,7 +136,7 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
         // ----------------------- D.2 ------------------------
     }
 
-    // ----------------------- B ------------------------
+    // ----------------------- B.2 ------------------------
     @Override
     protected void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
@@ -162,7 +162,7 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
         }
     }
 
-    // ----------------------- B ------------------------
+    // ----------------------- B.2 ------------------------
 
 
     // ----------------------- D.1 ------------------------

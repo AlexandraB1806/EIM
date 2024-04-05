@@ -22,7 +22,7 @@ public interface Constants {
     final public static String NUMBER_RIGHT = "nr right";
 
     final public static String SERVICE_PACKAGE = "ro.pub.cs.systems.eim.modelcolocviu";
-    final public static String SERVICE_CLASS = "ro.pub.cs.systems.eim.lmodelcolocviu.ModelColocviuService";
+    final public static String SERVICE_CLASS = "ro.pub.cs.systems.eim.modelcolocviu.ModelColocviuService";
 
     public final static int THRESHOLD = 6;
 
