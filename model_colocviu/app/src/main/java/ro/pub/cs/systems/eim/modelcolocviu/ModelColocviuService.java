@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.Random;
 
 public class ModelColocviuService extends Service {
-    private int numberLeft, numberRight, sumNumbers = 0;
+    private int numberLeft, numberRight;
     private boolean isServiceRunning = false;
 
     // constructor default
@@ -51,8 +51,6 @@ public class ModelColocviuService extends Service {
         if (intent != null) {
             numberLeft = intent.getIntExtra(Constants.NUMBER_LEFT, 0);
             numberRight = intent.getIntExtra(Constants.NUMBER_RIGHT, 0);
-
-            sumNumbers = numberLeft + numberRight;
         }
 
         if (isServiceRunning) {
