@@ -168,7 +168,10 @@ public class ModelColocviuMainActivity extends AppCompatActivity {
     // ----------------------- D.1 ------------------------
     @Override
     protected void onDestroy() {
-        stopService(intent);
+        if (intent != null) {
+            stopService(intent);
+        }
+
         super.onDestroy();
     }
     // ----------------------- D.1 ------------------------
