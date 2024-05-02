@@ -4,6 +4,7 @@ import android.util.Log;
 import android.widget.EditText;
 
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -15,7 +16,7 @@ public class ServerThread extends Thread {
 
     private ServerSocket serverSocket;
 
-    private EditText serverTextEditText;
+    private final EditText serverTextEditText;
 
     public ServerThread(EditText serverTextEditText) {
         this.serverTextEditText = serverTextEditText;
@@ -24,38 +25,47 @@ public class ServerThread extends Thread {
     public void startServer() {
         isRunning = true;
         start();
+
         Log.v(Constants.TAG, "startServer() method was invoked");
     }
 
     public void stopServer() {
         isRunning = false;
-        try {
-            serverSocket.close();
-        } catch (IOException ioException) {
-            Log.e(Constants.TAG, "An exception has occurred: " + ioException.getMessage());
-            if (Constants.DEBUG) {
-                ioException.printStackTrace();
+
+        new Thread(() -> {
+            try {
+                if (serverSocket != null) {
+                    serverSocket.close();
+                }
+
+                Log.v(Constants.TAG, "stopServer() method invoked" + serverSocket);
+            } catch (IOException ioException) {
+                Log.e(Constants.TAG, "An exception has occurred: " + ioException.getMessage());
             }
-        }
-        Log.v(Constants.TAG, "stopServer() method was invoked");
+        }).start();
     }
 
     @Override
     public void run() {
         try {
-            serverSocket = new ServerSocket(Constants.SERVER_PORT);
+            // Pornire server.
+            // Serverul asculta la toate interfetele de retea disponibile (0.0.0.0).
+            // Dimensiunea maxima a cozii de asteptare a conexiunilor este 50
+            serverSocket = new ServerSocket(Constants.SERVER_PORT, 50, InetAddress.getByName("0.0.0.0"));
+
+            // ciclu
             while (isRunning) {
+                // accept() -> deschiderea altui socket
                 Socket socket = serverSocket.accept();
-                if (socket != null) {
-                    CommunicationThread communicationThread = new CommunicationThread(socket, serverTextEditText);
-                    communicationThread.start();
-                }
+
+                Log.v(Constants.TAG, "accept()-ed: " + socket.getInetAddress());
+
+                // Se porneste un thread separat pentru comunicarea intre server si client
+                CommunicationThread communicationThread = new CommunicationThread(socket, serverTextEditText);
+                communicationThread.start();
             }
         } catch (IOException ioException) {
             Log.e(Constants.TAG, "An exception has occurred: " + ioException.getMessage());
-            if (Constants.DEBUG) {
-                ioException.printStackTrace();
-            }
         }
     }
 }

@@ -26,11 +26,13 @@ public class SingleThreadedServerActivity extends AppCompatActivity {
         @Override
         public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
             Log.v(Constants.TAG, "Text changed in edit text: " + charSequence.toString());
+
             if (Constants.SERVER_START.equals(charSequence.toString())) {
                 serverThread = new ServerThread(serverTextEditText);
                 serverThread.startServer();
                 Log.v(Constants.TAG, "Starting server...");
             }
+
             if (Constants.SERVER_STOP.equals(charSequence.toString())) {
                 serverThread.stopServer();
                 Log.v(Constants.TAG, "Stopping server...");
@@ -50,7 +52,12 @@ public class SingleThreadedServerActivity extends AppCompatActivity {
         serverTextEditText.addTextChangedListener(serverTextContentWatcher);
     }
 
-    // TODO exercise 5b
-    // overwrite method onDestroy() in order to stop the serverThread on it
-    // only if it has been initialized before
+    // Oprim serverThread (se aplica doar daca serverThread a mai fost initializat inainte)
+    @Override
+    public void onDestroy() {
+        if (serverThread != null) {
+            serverThread.stopServer();
+        }
+        super.onDestroy();
+    }
 }

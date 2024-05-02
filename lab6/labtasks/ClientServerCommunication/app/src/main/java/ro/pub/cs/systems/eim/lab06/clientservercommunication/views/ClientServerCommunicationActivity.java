@@ -19,6 +19,5 @@ public class ClientServerCommunicationActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.server_frame_layout, new ServerFragment());
         fragmentTransaction.add(R.id.client_frame_layout, new ClientFragment());
         fragmentTransaction.commit();
-
     }
 }

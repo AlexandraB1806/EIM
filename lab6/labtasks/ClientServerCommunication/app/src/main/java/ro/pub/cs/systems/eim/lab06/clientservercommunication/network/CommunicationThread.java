@@ -4,14 +4,16 @@ import android.util.Log;
 import android.widget.EditText;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.Socket;
 
 import ro.pub.cs.systems.eim.lab06.clientservercommunication.general.Constants;
+import ro.pub.cs.systems.eim.lab06.clientservercommunication.general.Utilities;
 
 public class CommunicationThread extends Thread {
 
-    private Socket socket;
-    private EditText serverTextEditText;
+    private final Socket socket;
+    private final EditText serverTextEditText;
 
     public CommunicationThread(Socket socket, EditText serverTextEditText) {
         this.socket = socket;
@@ -23,18 +25,16 @@ public class CommunicationThread extends Thread {
         try {
             Log.v(Constants.TAG, "Connection opened with " + socket.getInetAddress() + ":" + socket.getLocalPort());
 
-            // TODO exercise 6a
-            // - get the PrintWriter object in order to write on the socket (use Utilities.getWriter())
-            // - print a line containing the text in the serverTextEditText edit text
+            // Obiectul printWriter este folosit ca sa putem scrie catre fluxul de iesire asociat socket-ului.
+            // Printam (scriem) o linie care sa contina textul din editText-ul serverTextEditText
+            PrintWriter printWriter = Utilities.getWriter(socket);
+            printWriter.println(serverTextEditText.getText().toString());
 
             socket.close();
-            Log.v(Constants.TAG, "Connection closed");
-        } catch (Exception exception) {
-            Log.e(Constants.TAG, "An exception has occurred: " + exception.getMessage());
-            if (Constants.DEBUG) {
-                exception.printStackTrace();
-            }
+
+            Log.v(Constants.TAG, "Connection closed (communication thread)");
+        } catch (IOException ioException) {
+            Log.e(Constants.TAG, "An exception has occurred: " + ioException.getMessage());
         }
     }
-
 }

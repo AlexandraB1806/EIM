@@ -29,13 +29,16 @@ public class ServerFragment extends Fragment {
         @Override
         public void onTextChanged(CharSequence charSequence, int start, int before, int count) {
             Log.v(Constants.TAG, "Text changed in edit text: " + charSequence.toString());
+
             if (Constants.SERVER_START.toString().equals(charSequence.toString())) {
                 serverThread = new ServerThread(serverEditText);
                 serverThread.startServer();
+
                 Log.v(Constants.TAG, "Starting server...");
             }
             if (Constants.SERVER_STOP.equals(charSequence.toString())) {
                 serverThread.stopServer();
+
                 Log.v(Constants.TAG, "Stopping server...");
             }
         }
@@ -65,5 +68,4 @@ public class ServerFragment extends Fragment {
         }
         super.onDestroy();
     }
-
 }

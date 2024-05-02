@@ -23,6 +23,7 @@ public class ClientFragment extends Fragment {
 
         @Override
         public void onClick(View view) {
+            // 127.0.0.1 : 2017
             ClientAsyncTask clientAsyncTask = new ClientAsyncTask(serverMessageTextView);
             clientAsyncTask.execute(serverAddressEditText.getText().toString(), serverPortEditText.getText().toString());
         }
@@ -43,5 +44,4 @@ public class ClientFragment extends Fragment {
         displayMessageButton.setOnClickListener(buttonClickListener);
         serverMessageTextView = (TextView)getActivity().findViewById(R.id.server_message_text_view);
     }
-
 }
