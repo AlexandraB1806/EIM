@@ -26,6 +26,9 @@ public class CalculatorWebServiceActivity extends AppCompatActivity {
             String operator1 = operator1EditText.getText().toString();
             String operator2 = operator2EditText.getText().toString();
             String operation = operationSpinner.getSelectedItem().toString();
+
+            // Metoda getSelectedItemPosition() returneaza pozitia din lista.
+            // GET -> poz 0; POST -> poz 1
             String method = String.valueOf(methodSpinner.getSelectedItemPosition());
 
             CalculatorWebServiceAsyncTask calculatorWebServiceAsyncTask = new CalculatorWebServiceAsyncTask(resultTextView);

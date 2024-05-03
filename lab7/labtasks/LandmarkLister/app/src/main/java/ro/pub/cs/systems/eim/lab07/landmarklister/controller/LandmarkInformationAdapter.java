@@ -16,7 +16,6 @@ public class LandmarkInformationAdapter extends BaseAdapter {
 
     private Context context;
     private List<LandmarkInformation> content;
-
     private LayoutInflater layoutInflater;
 
     private static class LandmarkInformationViewHolder {
@@ -72,6 +71,7 @@ public class LandmarkInformationAdapter extends BaseAdapter {
         } else {
             view = convertView;
         }
+
         landmarkInformationViewHolder = (LandmarkInformationViewHolder)view.getTag();
         landmarkInformationViewHolder.latitudeTextView.setText(String.valueOf(landmarkInformation.getLatitude()));
         landmarkInformationViewHolder.longitudeTextView.setText(String.valueOf(landmarkInformation.getLongitude()));

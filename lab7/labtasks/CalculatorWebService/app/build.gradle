@@ -2,7 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion "28.0.3"
+
+    useLibrary 'org.apache.http.legacy'
+
     defaultConfig {
         applicationId "ro.pub.cs.systems.eim.lab07.calculatorwebservice"
         minSdkVersion 16

@@ -10,11 +10,11 @@ public class XKCDCartoonInformation {
     private String previousCartoonUrl, nextCartoonUrl;
 
     public XKCDCartoonInformation() {
-        this.cartoonTitle = new String();
+        this.cartoonTitle = "";
         this.cartoonBitmap = null;
-        this.cartoonUrl = new String();
-        this.previousCartoonUrl = new String();
-        this.nextCartoonUrl = new String();
+        this.cartoonUrl = "";
+        this.previousCartoonUrl = "";
+        this.nextCartoonUrl = "";
     }
 
     public XKCDCartoonInformation(String cartoonTitle,

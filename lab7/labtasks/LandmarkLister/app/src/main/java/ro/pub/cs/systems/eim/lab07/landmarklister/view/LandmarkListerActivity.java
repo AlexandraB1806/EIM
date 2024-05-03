@@ -24,25 +24,26 @@ public class LandmarkListerActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             String northString = northEditText.getText().toString();
-            if (northString == null || northString.isEmpty()) {
+            if (northString.isEmpty()) {
                 Toast.makeText(getApplication(), Constants.MISSING_INFORMATION_ERROR_MESSAGE, Toast.LENGTH_LONG).show();
                 return;
             }
             String southString = southEditText.getText().toString();
-            if (southString == null || southString.isEmpty()) {
+            if (southString.isEmpty()) {
                 Toast.makeText(getApplication(), Constants.MISSING_INFORMATION_ERROR_MESSAGE, Toast.LENGTH_LONG).show();
                 return;
             }
             String eastString = eastEditText.getText().toString();
-            if (eastString == null || eastString.isEmpty()) {
+            if (eastString.isEmpty()) {
                 Toast.makeText(getApplication(), Constants.MISSING_INFORMATION_ERROR_MESSAGE, Toast.LENGTH_LONG).show();
                 return;
             }
             String westString = westEditText.getText().toString();
-            if (westString == null || westString.isEmpty()) {
+            if (westString.isEmpty()) {
                 Toast.makeText(getApplication(), Constants.MISSING_INFORMATION_ERROR_MESSAGE, Toast.LENGTH_LONG).show();
                 return;
             }
+
             new LandmarkListerAsyncTask(landmarksListView).execute(northString, southString, eastString, westString);
         }
     }
